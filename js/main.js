@@ -1,30 +1,27 @@
 //Var
-var data = new Date();
-alert(data.getSeconds());
 
 
-/*
-var count;
-for(count = 0; count <= 5; count++){
-    alert(count);
+function clicou(){
+    document.getElementById("thanks").innerHTML = "Obrigado por clicar";
 }
-*/
 
-/*
-var count = 0;
-while(count <= 5){
-    console.log(count);
-    alert(count);
-    count++;
+function redirecionar(){
+    window.open("https://www.twitch.tv/");
+    window.location.href = "https://www.twitch.tv/";
 }
-*/
 
-/*
-var idade = prompt("Qual sua idade: ");
-
-if(idade >= 18){
-    alert("maior de idade");
-}else{
-    alert("menor de idade");
+function trocar(elemento){
+    elemento.innerHTML = "Se fodeu"
 }
-*/
+
+function voltar(elemento){
+    elemento.innerHTML ="Passe o mouse no meu pau"
+}
+
+function load(){
+    alert("Pagina carregada")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
